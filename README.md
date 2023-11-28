@@ -10,10 +10,11 @@
 
 1.1 Для проведения тестирования на ПК должны быть установлены следующие программы:
  <ul>
- <li>IntelliJ IDEA.
- <li>Docker Desktop.
- <li>Git.
- <li>Google Chrome.
+ <li> IntelliJ IDEA.
+ <li> Docker Desktop.
+ <li> Git.
+ <li> Google Chrome.
+ <li> DBeaver.
  </ul>
 
 1.2. Склонировать проект с GitHub:
