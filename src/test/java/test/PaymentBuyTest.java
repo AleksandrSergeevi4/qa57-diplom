@@ -137,7 +137,7 @@ public class PaymentBuyTest {
     @Test
     void shouldOneDigitInMonth() {
         var cardNumber = String.valueOf(DataHelper.getApprovedCardNumber());
-        var month = DataHelper.getOneDigitInMonth();
+        var month = DataHelper.getOneDigit();
         var year = DataHelper.getValidYear();
         var name = DataHelper.getValidName();
         var code = DataHelper.getValidCode();
@@ -171,7 +171,7 @@ public class PaymentBuyTest {
     void shouldOneDigitInYear() {
         var cardNumber = String.valueOf(DataHelper.getApprovedCardNumber());
         var month = DataHelper.getValidMonth();
-        var year = DataHelper.getOneDigitInYear();
+        var year = DataHelper.getOneDigit();
         var name = DataHelper.getValidName();
         var code = DataHelper.getValidCode();
         paymentPage.payment(cardNumber, month, year, name, code);

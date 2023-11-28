@@ -56,16 +56,12 @@ public class DataHelper {
         return faker.backToTheFuture().date();
     }
 
-    public static String getOneDigitInMonth() {
+    public static String getOneDigit() {
         return "3";
     }
 
     public static String getPreviousMonthsOfTheCurrentYear() {
         return LocalDate.now().minusMonths(3).format(DateTimeFormatter.ofPattern("MM"));
-    }
-
-    public static String getOneDigitInYear() {
-        return "1";
     }
 
     public static String getLessThanThisYear() {
